@@ -1,20 +1,9 @@
 body {
-    padding: 20px;
-    margin: 20px;
-    border: 20px solid brown;
-    background: yellow;
 }
 .row {
-    margin-left: 0;
 }
 .my-header h3 {
-    font-family: 'Slabo 27px', serif;
-    text-align: center;
-    padding: 40px;
-    text-transform: uppercase;
 }
 
 .my-title h1 {
-    font-family: 'Slabo 27px', serif;
-    font-size: 56px;
 }
