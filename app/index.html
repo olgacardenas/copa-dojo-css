@@ -9,6 +9,11 @@
 	<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Poiret+One' rel='stylesheet' type='text/css'>
 </head>
 <style>
+	.title {
+		border: solid blue 1px;
+		background: red;
+		display:block;
+	}
 	.contenedor{
 		width:1093px;
 		height:865px;
@@ -45,20 +50,6 @@
 		margin-top: 5px;
 	}
 
-	.photo4{
-		width: 342px;
-		height: 302px;
-		float: left;
-		background:url("./img/a4.png");
-	}
-
-	.photo4{
-		width: 342px;
-		height: 302px;
-		float: left;
-		background:url("./img/a4.png");
-	}
-
 	.photo5{
 		width: 278px;
 		height: 241px;
@@ -72,6 +63,21 @@
 		float: left;
 		background:url("./img/a6.png");
 	}
+
+	.photo7{
+		width: 79px;
+		height: 107px;
+		float: left;
+		background: url("./img/a9.png");
+	}
+
+	.photo8{
+		width: 211px;
+		height: 71px;
+		float: left;
+		background: url("./img/a8.png");
+	}
+
 	.smile {
 		width: 127px;
 		height: 118px;
@@ -82,26 +88,41 @@
 		width: 364px;
 		height: auto;
 		float: left;
+		display: block;
 	}
-	
+	.photos-container {
+		display: block;
+	}
+
 </style>
 <body>
 <div class="contenedor">
-	<div class="sub-contenedor">
-		<div class="photo1"></div>
-		<div class="photo4"></div>
+	<div class="title">
+		<p>THE NUCLEAR DOOMSDAY CLOCK STANDS AT FIVE TO MIDNIGHT!</p>
 	</div>
-	<div class="sub-contenedor">
-		<div class="photo2"></div>
-		<div class="photo5"></div>
+	<div class="photos-container">
+		<div class="sub-contenedor">
+			<div class="photo1"></div>
+			<div class="photo4"></div>
+		</div>
+		<div class="sub-contenedor">
+			<div class="photo2"></div>
+			<div class="photo5"></div>
+		</div>
+		<div class="sub-contenedor">
+			<div class="photo3"></div>
+			<div class="photo6"></div>
+		</div>
 	</div>
-	<div class="sub-contenedor">
-		<div class="photo3"></div>
-		<div class="photo6"></div>
+	<!--div>
+		<div class="smile">
+			<p>WATCHMEN</p>
+		</div>
 	</div>
-
-	<div class="smile"></div>
-
+	<div-- class="footer">
+		<div class="photo7"></div>
+		<div class="photo8"></div>
+	</div-->
 </div>
 </body>
 </html>
