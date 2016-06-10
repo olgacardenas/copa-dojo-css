@@ -9,6 +9,11 @@
 	<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Poiret+One' rel='stylesheet' type='text/css'>
 </head>
 <style>
+	@font-face {
+		font-family: zalderdash;
+		src: url("./fonts/Zalderdash.woff");
+	}
+
 	.contenedor{
 		width:1093px;
 		height:865px;
@@ -83,9 +88,24 @@
 		height: auto;
 		float: left;
 	}
- .name {
-	 	font-size: 20px;
-		color: #FDFDC8;
+
+	.photo1 h3 {
+		width: 40%;
+		float: right;
+		margin-top: 20%;
+	}
+	.photo2 h3 {
+		width: 40%;
+		float: left;
+		margin:60% 0 0 20px;
+	}
+
+
+ h3 {
+	 font-size: 20px;
+	 color: #FDFDC8;
+   font-family: "zalderdash";
+	 line-height: 22px;
  }
  .texto {
 	 font-size: 140px;
@@ -98,16 +118,16 @@
 <body>
 <div class="contenedor">
 	<div class="sub-contenedor">
-		<div class="photo1"><p class="name">PETER FONDA<p></div>
-		<div class="photo4 name"><p class="name">PAUL NEWMAN<p></div>
+		<div class="photo1"><h3>PETER FONDA</h3></div>
+		<div class="photo4 name"><h3>PAUL NEWMAN</h3></div>
 	</div>
 	<div class="sub-contenedor">
-		<div class="photo2 name"><p class="name">BRIGITTE BARDOT<p></div>
-		<div class="photo5 name"><p class="name">LENNY BRUCE<p></div>
+		<div class="photo2 name"><h3>BRIGITTE BARDOT</h3></div>
+		<div class="photo5 name"><h3>LENNY BRUCE</h3></div>
 	</div>
 	<div class="sub-contenedor">
-		<div class="photo3 name"><p class="name">MAX VON SYDOW<p></div>
-		<div class="photo6 name"><p class="name">ANTHONY PERKINS<p></div>
+		<div class="photo3 name"><h3>MAX VON SYDOW</h3></div>
+		<div class="photo6 name"><h3>ANTHONY PERKINS</h3></div>
 	</div>
 	<div class="footer">
 	<div class="smile">WATCHMEN</div>
